@@ -1,0 +1,17 @@
+{
+    "mcpServers": {
+        "sandbox": {
+            "command": "uv",
+            "args": [
+                "run",
+                "--with",
+                "mcp[cli]",
+                "mcp",
+                "run",
+                "~/mcphost/servers/sandbox.py"
+            ],
+            "transportType": "stdio"
+        }
+    }
+}
+

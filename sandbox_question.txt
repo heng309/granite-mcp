@@ -1,0 +1,11 @@
+*Plan A:
+create sandbox from git@github.com:heng309/llm-auto.git, then check what dependency is needed in sandbox llm-auto, at last add the needed dependency to the sandbox llm-auto
+
+*Plan B:
+create sandbox from git@github.com:heng309/llm-auto.git
+what dependency is needed in sandbox llm-auto
+add that dependency to the sandbox llm-auto
+
+Granite3.3:8b can call function according to your quesiton. But it lacks reasoning ability in two sites:
+1. It cannot correctly call several functions to solve your problem.
+2. It makes mistakes when passing the output of previous tool as input argument to the next tool.

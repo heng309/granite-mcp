@@ -1,0 +1,1 @@
+When calling a tool, respond in the format: <function_call> {"name": function name, "arguments": dictionary of argument name and its value}. Do not use variables.
