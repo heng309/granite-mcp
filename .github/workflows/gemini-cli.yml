@@ -58,6 +58,12 @@ jobs:
     timeout-minutes: 10
     runs-on: 'ubuntu-latest'
 
+    permissions:
+      contents: read
+      pull-requests: read
+      issues: read
+      id-token: write
+
     steps:
       - name: 'Generate GitHub App Token'
         id: 'generate_token'
